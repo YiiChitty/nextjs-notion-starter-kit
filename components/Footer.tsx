@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaTwitter, FaGithub, FaLinkedin, FaWeibo } from 'react-icons/fa'
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
 import * as config from 'lib/config'
 
@@ -74,6 +74,18 @@ export const Footer: React.FC<{
             rel='noopener noreferrer'
           >
             <FaLinkedin />
+          </a>
+        )}
+
+        {config.weibo && (
+          <a
+            className={styles.weibo}
+            href={`https://twitter.com/${config.weibo}`}
+            title={`Twitter @${config.weibo}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaWeibo />
           </a>
         )}
       </div>
