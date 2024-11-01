@@ -1,3 +1,21 @@
+### 
+这个项目基于原作者项目，替换了一部分自己的内容。
+由于域名莫名其妙涨价，继续续费域名实在不划算，如果还想看看成果的话可以考虑 🪜访问 https://notion-blog-git-main-yiichitty.vercel.app/
+
+关于如何超低层本建一个自己的博客，而且后续只需要考虑内容的维护即可：大家可以在我的Notion文章中进行参考：https://chitty.notion.site/Create-Website-b0a78f37956841d28315dd46ae9d3d27
+
+我的无痛更新思路主要分为三个部分：
+-  把Notion作为内容仓库，只要我在内容仓库里面添加新的page，就可以在博客站访问到
+-  在当前这个fork的这个项目上的所有提交，都可以自动部署在Vercel上，Vercel会有个地址，但是在国内因为dns的问题没办法直接访问
+  
+-  解决域名无法访问的问题，所以自己买了个域名（主要是b格比较高）在Vercel上配置就行 （这一步要花钱买域名，不是必须，可有可无）
+
+
+
+
+
+
+
 <p align="center">
   <a href="https://transitivebullsh.it/nextjs-notion-starter-kit">
     <img alt="Example article page" src="https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Fd147d76c-28a4-4cdd-a503-2d6bcc50a787%252Ftransitivebullsh.it__(5)-opt.jpg%3Ftable%3Dblock%26id%3D5b87b717-ca5b-49da-b17c-12c3eab1644a%26cache%3Dv2" width="689">
